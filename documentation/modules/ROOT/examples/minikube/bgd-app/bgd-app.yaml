@@ -11,7 +11,7 @@ spec:
   source:
     path: apps/bgd/overlays/bgd
     repoURL: https://github.com/aidan-ogorman-dev/openshift-gitops-examples.git
-    targetRevision: minikube
+    targetRevision: master
   syncPolicy:
     automated:
       prune: true
