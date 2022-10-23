@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: apps/bgd/overlays/bgd
-    repoURL: https://github.com/boonchu/argocd-tutorial
+    repoURL: https://github.com/boonchu/openshift-gitops-examples
     targetRevision: minikube
   syncPolicy:
     automated:
